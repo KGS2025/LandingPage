@@ -1,0 +1,128 @@
+{
+  "title": "Welcome to kondarsoft",
+  "navigation": {
+    "home": "Home",
+    "marketplace": "Marketplace",
+    "contact": "Contact",
+    "outsourcing": "Outsourcing",
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "arabic": "العربية",
+      "chinese": "中文",
+      "english_arabic": "English - العربية",
+      "french_arabic": "Français - العربية",
+      "japanese": "日本語",
+      "english_japanese": "English - 日本語"
+    }
+  },
+  "hero_section": {
+    "title": "Sell online with our white <br> label store and marketplace",
+    "button": "Start today"
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "vehicles": {
+      "title": "Vehicles",
+      "description": "Vehicles for people and goods transportation: Road, Rail, Sea and Air."
+    },
+    "machines": {
+      "title": "Machines",
+      "description": "Machines, equipment and products for construction, agriculture and industrial application."
+    },
+    "devices": {
+      "title": "Devices",
+      "description": "Devices (home appliances and office equipment)."
+    },
+    "tools_instruments": {
+      "title": "Tools & Instruments",
+      "description": "It is about all Tools & Instruments without exception."
+    },
+    "food": {
+      "title": "Food",
+      "description": "Food for human and animal consumption."
+    },
+    "wear": {
+      "title": "Wear",
+      "description": "Wear and aesthetic products."
+    }
+  },
+  "video_section": {
+    "title": "Why Kondar Soft?",
+    "objective": "Our Objective?",
+    "objective_description": "Our objective is to revolutionize the global e-commerce landscape by introducing our unparalleled white label online store. It's strategically designed to empower product suppliers, including manufacturers, wholesalers, and retailers, enabling them to excel in both B2B and B2C online sales.<a href=\"https://www.kondarsoft.com/en/page/EISPI\"style=\"text-decoration: none\"><span class=\"text-danger\">https://www.kondarsoft.com/en/page/EISPI</span></a>"
+  },
+  "features": {
+    "title": "Who is it for?",
+    "traget1": "For established product's manufacturers, wholesalers and retailers which are selling offline or having an unproductive online store (expensive or outdated).",
+    "target2": "For startups that are looking to sell its products online.",
+    "feature": "feature",
+    "benefit": "benefit",
+    "1": {
+      "feature": "No credit card or any financial data required to sign up.",
+      "benefit": "Trying Kondarsoft® is totally free. You can cancel at any time."
+    },
+    "2": {
+      "feature": "No unexpected or hidden fees, whatsoever, except the tailored transaction fees.",
+      "benefit": "Enjoy the best service for the right cost."
+    },
+    "3": {
+      "feature": "Swift signup process. Made simple for your peace of mind.",
+      "benefit": "You are five minutes away from joining the platform."
+    },
+    "4": {
+      "feature": "To access the e-store, you will need to simultaneously verify your email address and cellphone number. The verification process will take one minute.",
+      "benefit": "Highly secure environment for your online business. Acquire neat and verified clients."
+    },
+    "5": {
+      "feature": "Multilingual back and front end with full support of left-to-right & right-to-left languages.",
+      "benefit": "Reach your target market wherever it is in the world."
+    },
+    "6": {
+      "feature": "Multi credit card processors and shipping carriers.",
+      "benefit": "Connect with your clients and start processing orders with no hassle or limitations."
+    },
+    "7": {
+      "feature": "Combined and optimized data entry, marketing, accounting, shipping and sales functionalities.",
+      "benefit": "Save hours of tedious work for you & your team."
+    },
+    "8": {
+      "feature": "Free 24/7 technical support (chat, email, audio or video).",
+      "benefit": "Profit from a real-time support service and a team ready to intervene."
+    },
+    "9": {
+      "feature": "Free remote or in person training sessions. Possible free e-store setup for the eligible businesses.",
+      "benefit": "Easily setup, manage and attune your e-store with your country’s regulatory requirements."
+    }
+  },
+  "steps_section": {
+    "title":"How it works?",
+    "sub-title":"Follow these 5 steps to use KondarSoft®:",
+    "step1_title": "Step 1 - Sign Up",
+    "step1_subtitle": "To register for an online e-store, kindly visit: <br /><a href=\"www.kondarsoft.com/en/signup and fill in the forms.\" style=\"text-decoration: none\"><span class=\"text-danger\">www.kondarsoft.com/en/signup and fill in the forms.</span></a>",
+    "step1_description": "Once done, you will receive front-end and back-end links in your email address to build and manage your website.",
+    "step2_title": "Step 2 - Customize your e-store",
+    "step2_description": "You will get access to your own dashboard to fully customize your e-store: add your personal logo, manage front and back ends. Change or add language and more.",
+    "step3_title": "Step 3 - List your products",
+    "step3_description": "Add your product data after defining your inventory categories (products pictures, description, price, dimensions…etc.).",
+    "step4_title": "Step 4 - Set up your payment & delivery methods",
+    "step4_description": "Insert merchant account details with one payment processor, example: Stripe or Bambora. Add Shipping methods for delivery purposes, example UPS or FedEx.",
+    "step5_title": "Step 5 - Launch your e-store to go LIVE!",
+    "step5_description": "Congratulation! You can now try Kondarsoft® free for selling goods worth 5000 USD accumulated or for 15 calendar days. Once the trial period is over, KondarSoft® algorithm will determine the most competitive transaction fees on a case-to-case basis."
+  },
+  "section_title": "Contact Your Local Commercial Consultant",
+  "consultant_1_name": "Mr. Riadh S",
+  "consultant_1_location": "British Columbia, Canada",
+  "consultant_1_view_more": "View More",
+  "consultant_2_name": "Ms. Annamarie B",
+  "consultant_2_location": "California, United States",
+  "consultant_2_view_more": "View More",
+  "footer_legal_notices_title": "Legal Notices",
+  "footer_legal_notices_item_1": "Privacy Policy",
+  "footer_legal_notices_item_2": "Terms of Services",
+  "footer_legal_notices_item_3": "Contact Us",
+  "footer_work_with_kgs_title": "Work With KGS",
+  "footer_work_with_kgs_item_1": "Full-Time Job (2)",
+  "footer_work_with_kgs_item_2": "Internship Program (2)",
+  "footer_work_with_kgs_item_3": "Project Contractors (1)"
+}

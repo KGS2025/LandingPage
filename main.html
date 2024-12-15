@@ -1,50 +1,840 @@
-<!DOCTYPE HTML>
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.typekit.net/ong6lwg.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Welcome to kondarsoft</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      .bg-custom-dark-red {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+    </style>
+    <link rel="stylesheet" href="https://use.typekit.net/ong6lwg.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title data-key="title">Welcome to kondarsoft</title>
+  </head>
+  <body>
     <div class="main-container">
-        <!--                    start of the navigation bar                     -->
-        <div class="navigation-bar w-100 bg-light d-flex justify-content-between">
-            <div class="logo-container">
-                <img class="svg-logo" src="Images/KondarSoftLogo.svg" />
-            </div>
-                <div class="options-container d-flex">
-                    <div class="home">Home</div>
-                    <div class="marketplace">Marketplace</div>
-                    <div class="contact">Contact</div>
-                    <div class="outsoucing">Outsourcing</div>
-                </div>
-                <div class="lang-menu">
-                    <select class="languages form-select d-block">
-                        <option value="english">English</option>
-                        <option value="frensh">Français</option>
-                        <option value="arabic">العربية</option>
-                        <option value="chinese">中文</option>
-                        <option value="english-arabic">English - العربية</option>
-                        <option value="frensh-arabic">Français - العربية</option>
-                        <option value="japanese">日本語</option>
-                        <option value="english-japanese">English - 日本語</option>
-                    </select>
-                </div>
+      <!--                    start of the navigation bar (for large screens)                     -->
+      <div
+        class="navigation-bar w-100 bg-light justify-content-between b-screen"
+      >
+        <div class="logo-container d-flex align-items-center">
+          <img class="svg-logo" src="Images/KondarSoftLogo.svg" />
         </div>
-        <!--                    end of the navigation bar                     -->
-        <!--                    start of the main section                    -->
-        <div class="title-container">
-            <img src="Images/TitleBgImage.jpg" class="bg-image">
-            <div class="title m-auto">
-                <h1 class="text-light font-weight-bold">Sell online with our white <br> label store and marketplace</h1>
-                <div class="btn-container">
-                    <button class="btn btn-lg btn-danger title-btn">Start today</button>
-                </div>
-                
-            </div>
+        <div class="options-container d-flex alig">
+          <div
+            class="position-relative nav-seperation-line"
+            data-key="navigation.home"
+          >
+            Home
+          </div>
+          <div
+            class="marketplace position-relative nav-seperation-line"
+            data-key="navigation.marketplace"
+          >
+            Marketplace
+          </div>
+          <div
+            class="contact position-relative nav-seperation-line"
+            data-key="navigation.contact"
+          >
+            Contact
+          </div>
+          <div
+            class="outsoucing position-relative"
+            data-key="navigation.outsourcing"
+          >
+            Outsourcing
+          </div>
         </div>
-        <!--                    end of the main section                     -->
+        <div class="lang-menu d-flex justify-content-center">
+          <select class="form-select d-block" id="language-selector">
+            <option value="english">English</option>
+            <option value="frensh">Français</option>
+            <option value="arabic">العربية</option>
+            <option value="chinese">中文</option>
+            <option value="english-arabic">English - العربية</option>
+            <option value="frensh-arabic">Français - العربية</option>
+            <option value="japanese">日本語</option>
+            <option value="english-japanese">English - 日本語</option>
+          </select>
+        </div>
+      </div>
+      <!--                    end of the navigation bar                     -->
+      <!--                    start of the navigation bar (for small screens)                     -->
+      <div class="sm-nav-contaner">
+        <div
+          class="navigation-bar w-100 bg-light justify-content-between s-screen"
+        >
+          <div class="balancer" style="width: 58px"></div>
+          <div class="logo-container d-flex align-items-center">
+            <img class="svg-logo" src="Images/KondarSoftLogo.svg" />
+          </div>
+          <div class="sandwich-menu">
+            <input
+              class="menu-btn"
+              type="checkbox"
+              id="menu-btn"
+              aria-label="Toggle Navigaton Menu"
+            />
+            <!-- Icon -->
+            <label class="menu-icon" for="menu-btn">
+              <span class="navicon"></span>
+            </label>
+          </div>
+        </div>
+        <div class="sm-menu align-items-center flex-column">
+          <div
+            class="menu-items-container w-50 d-flex align-items-center flex-column"
+          >
+            <div class="position-relative" data-key="navigation.home">Home</div>
+            <div class="position-relative" data-key="navigation.marketplace">
+              Marketplace
+            </div>
+            <div class="position-relative" data-key="navigation.contact">
+              Contact
+            </div>
+            <div class="position-relative" data-key="navigation.outsourcing">
+              Outsourcing
+            </div>
+
+            <select
+              class="languages form-select d-block"
+              id="language-selector-mobile"
+            >
+              <option value="english">English</option>
+              <option value="frensh">Français</option>
+              <option value="arabic">العربية</option>
+              <option value="chinese">中文</option>
+              <option value="english-arabic">English - العربية</option>
+              <option value="frensh-arabic">Français - العربية</option>
+              <option value="japanese">日本語</option>
+              <option value="english-japanese">English - 日本語</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!--                    end of the navigation bar                     -->
+      <!--                    start of the hero section                    -->
+      <div class="title-container">
+        <img src="Images/TitleBgImage.jpg" class="bg-image" />
+        <div class="title m-auto">
+          <h1 class="text-light font-weight-bold" data-key="hero_section.title">
+            Sell online with our white <br />
+            label store and marketplace
+          </h1>
+          <div class="btn-container">
+            <button
+              class="btn btn-lg btn-danger title-btn"
+              data-key="hero_section.button"
+            >
+              Start today
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--                    end of the hero section                     -->
+      <!--                    start of the seperation shape                     -->
+      <div class="seperation-section">
+        <h1 class="industries-title" data-key="industries.title">
+          Industries We Serve
+        </h1>
+        <!-- xl-screen list -->
+        <section class="text-white py-5 w-100">
+          <div class="w-100">
+            <div class="row g-4">
+              <!-- Vehicle Industry -->
+              <!-- Vehicle Industry -->
+              <div class="col-12 col-sm-6 col-lg-4 col-xxl-2">
+                <div class="text-center">
+                  <div class="industry-icon">
+                    <img src="/Images/Icons/car.svg" class="col-4" />
+                  </div>
+                  <h2
+                    class="h4 mb-3 h-custom-indus d-flex align-items-center justify-content-center"
+                    data-key="industries.vehicles.title"
+                  >
+                    Vehicles
+                  </h2>
+                  <div
+                    class="bg-custom-dark-red p-4 h5 h-custom-indus-text d-flex align-items-center justify-content-center"
+                    data-key="industries.vehicles.description"
+                  >
+                    Vehicles for people and goods transportation: Road, Rail,
+                    Sea and Air.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Machines Industry -->
+              <div class="col-12 col-sm-6 col-lg-4 col-xxl-2">
+                <div class="text-center">
+                  <div class="industry-icon">
+                    <img src="/Images/Icons/devices.svg" class="col-4" />
+                  </div>
+                  <h2
+                    class="h4 mb-3 h-custom-indus d-flex align-items-center justify-content-center"
+                    data-key="industries.machines.title"
+                  >
+                    Machines
+                  </h2>
+                  <div
+                    class="bg-custom-dark-red p-4 h5 h-custom-indus-text d-flex align-items-center justify-content-center"
+                    data-key="industries.machines.description"
+                  >
+                    Machines, equipment and products for construction,
+                    agriculture and industrial application.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Devices Industry -->
+              <div class="col-12 col-sm-6 col-lg-4 col-xxl-2">
+                <div class="text-center">
+                  <div class="industry-icon">
+                    <img src="/Images/Icons/gears.svg" class="col-4" />
+                  </div>
+                  <h2
+                    class="h4 mb-3 h-custom-indus d-flex align-items-center justify-content-center"
+                    data-key="industries.devices.title"
+                  >
+                    Devices
+                  </h2>
+                  <div
+                    class="bg-custom-dark-red p-4 h5 h-custom-indus-text d-flex align-items-center justify-content-center"
+                    data-key="industries.devices.description"
+                  >
+                    Devices (home appliances and office equipment).
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tools Industry -->
+              <div class="col-12 col-sm-6 col-lg-4 col-xxl-2">
+                <div class="text-center">
+                  <div class="industry-icon">
+                    <img src="/Images/Icons/support.svg" class="col-4 p-3" />
+                  </div>
+                  <h2
+                    class="h4 mb-3 h-custom-indus d-flex align-items-center justify-content-center"
+                    data-key="industries.tools_instruments.title"
+                  >
+                    Tools & Instruments
+                  </h2>
+                  <div
+                    class="bg-custom-dark-red p-4 h5 h-custom-indus-text d-flex align-items-center justify-content-center"
+                    data-key="industries.tools_instruments.description"
+                  >
+                    It is about all Tools & Instruments without exception.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Food Industry -->
+              <div class="col-12 col-sm-6 col-lg-4 col-xxl-2">
+                <div class="text-center">
+                  <div class="industry-icon">
+                    <img src="/Images/Icons/food.svg" class="col-4" />
+                  </div>
+                  <h2
+                    class="h4 mb-3 h-custom-indus d-flex align-items-center justify-content-center"
+                    data-key="industries.food.title"
+                  >
+                    Food
+                  </h2>
+                  <div
+                    class="bg-custom-dark-red p-4 h5 h-custom-indus-text d-flex align-items-center justify-content-center"
+                    data-key="industries.food.description"
+                  >
+                    Food for human and animal consumption.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Wear Industry -->
+              <div class="col-12 col-sm-6 col-lg-4 col-xxl-2">
+                <div class="text-center">
+                  <div class="industry-icon">
+                    <img src="/Images/Icons/fashion.svg" class="col-4" />
+                  </div>
+                  <h2
+                    class="h4 mb-3 h-custom-indus d-flex align-items-center justify-content-center"
+                    data-key="industries.wear.title"
+                  >
+                    Wear
+                  </h2>
+                  <div
+                    class="bg-custom-dark-red p-4 h5 h-custom-indus-text d-flex align-items-center justify-content-center"
+                    data-key="industries.wear.description"
+                  >
+                    Wear and aesthetic products.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--                    end of the seperation shape                     -->
+      <!--                    start of the video section                     -->
+      <div class="video-section position-relative">
+        <div class="bg-map w-100 h-100 bg-dark">
+          <img src="Images/Map.png" alt="world map" class="h-100" />
+        </div>
+        <div class="video-container">
+          <h1 class="text-light" data-key="video_section.title">
+            Why Kondar Soft?
+          </h1>
+          <div class="bg-danger p-1">
+            <iframe
+              class="YT-vid"
+              src="https://www.youtube.com/embed/hfwSSAufABw"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <div class="objective-discription">
+            <h1 data-key="video_section.objective">Our Objective?</h1>
+            <p data-key="video_section.objective_description">
+              Our objective is to revolutionize the global e-commerce landscape
+              by introducing our unparalleled white label online store. It's
+              strategically designed to empower product suppliers, including
+              manufacturers, wholesalers, and retailers, enabling them to excel
+              in both B2B and B2C online sales. Please read about the 9 points
+              that demonstrate the absolute Need for Ecommerce in the Spare
+              Parts Industry:
+              <a
+                href="https://www.kondarsoft.com/en/page/EISPI"
+                style="text-decoration: none"
+              >
+                <span class="text-danger"
+                  >https://www.kondarsoft.com/en/page/EISPI</span
+                >
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--                    end of the video section                     -->
+      <!--                    start of benifits                     -->
+      <div class="benifit-section bg-dark">
+        <div class="benifit-container bg-dark text-white">
+          <h1 class="benifit-title" data-key="features.title">
+            Who is it for?
+          </h1>
+
+          <div class="target-groups">
+            <div class="target-group" data-key="features.traget1">
+              For established product's manufacturers, wholesalers and retailers
+              which are selling offline or having an unproductive online store
+              (expensive or outdated).
+            </div>
+            <div class="target-group" data-key="features.target2">
+              For startups that are looking to sell its products online.
+            </div>
+          </div>
+
+          <div class="features-benefits">
+            <div class="section-headers">
+              <div class="section-header">
+                <h3 class="text-header" data-key="features.feature">
+                  Features
+                </h3>
+              </div>
+              <div class="section-arrow mobile-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" alt="arrow" />
+              </div>
+              <div class="section-header">
+                <h3 class="text-header" data-key="features.benefit">
+                  Benefits
+                </h3>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.1.feature">
+                No credit card or any financial data required to sign up.
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.1.benefit">
+                Trying Kondarsoft® is totally free. You can cancel at any time.
+              </div>
+            </div>
+
+            <div class="line-section">
+              <div class="content-field">
+                <div class="line1"></div>
+              </div>
+              <div class="section-arrow"></div>
+              <div class="content-field">
+                <div class="line2"></div>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.2.feature">
+                No unexpected or hidden fees, whatsoever, except the tailored
+                transaction fees.
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.2.benefit">
+                Enjoy the best service for the right cost.
+              </div>
+            </div>
+
+            <div class="line-section">
+              <div class="content-field">
+                <div class="line1"></div>
+              </div>
+              <div class="section-arrow"></div>
+              <div class="content-field">
+                <div class="line2"></div>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.3.feature">
+                Swift signup process. Made simple for your peace of mind.
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.3.benefit">
+                You are five minutes away from joining the platform.
+              </div>
+            </div>
+
+            <div class="line-section">
+              <div class="content-field">
+                <div class="line1"></div>
+              </div>
+              <div class="section-arrow"></div>
+              <div class="content-field">
+                <div class="line2"></div>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.4.feature">
+                To access the e-store, you will need to simultaneously verify
+                your email address and cellphone number. The verification
+                process will take one minute.
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.4.benefit">
+                Highly secure environment for your online business. Acquire neat
+                and verified clients.
+              </div>
+            </div>
+
+            <div class="line-section">
+              <div class="content-field">
+                <div class="line1"></div>
+              </div>
+              <div class="section-arrow"></div>
+              <div class="content-field">
+                <div class="line2"></div>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.5.feature">
+                Multilingual back and front end with full support of
+                left-to-right & right-to-left languages.
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.5.benefit">
+                Reach your target market wherever it is in the world.
+              </div>
+            </div>
+
+            <div class="line-section">
+              <div class="content-field">
+                <div class="line1"></div>
+              </div>
+              <div class="section-arrow"></div>
+              <div class="content-field">
+                <div class="line2"></div>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.6.feature">
+                Multi credit card processors and shipping carriers.
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.6.benefit">
+                Connect with your clients and start processing orders with no
+                hassle or limitations.
+              </div>
+            </div>
+
+            <div class="line-section">
+              <div class="content-field">
+                <div class="line1"></div>
+              </div>
+              <div class="section-arrow"></div>
+              <div class="content-field">
+                <div class="line2"></div>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.7.feature">
+                Combined and optimized data entry, marketing, accounting,
+                shipping and sales functionalities.
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.7.benefit">
+                Save hours of tedious work for you & your team.
+              </div>
+            </div>
+
+            <div class="line-section">
+              <div class="content-field">
+                <div class="line1"></div>
+              </div>
+              <div class="section-arrow"></div>
+              <div class="content-field">
+                <div class="line2"></div>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.8.feature">
+                Free 24/7 technical support (chat, email, audio or video)
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.8.benefit">
+                Profit from a real-time support service and a team ready to
+                intervene.
+              </div>
+            </div>
+
+            <div class="line-section">
+              <div class="content-field">
+                <div class="line1"></div>
+              </div>
+              <div class="section-arrow"></div>
+              <div class="content-field">
+                <div class="line2"></div>
+              </div>
+            </div>
+
+            <div class="section-content">
+              <div class="content-field" data-key="features.9.feature">
+                Free remote or in person training sessions. Possible free
+                e-store setup for the eligible businesses.
+              </div>
+              <div class="section-arrow">
+                <img class="arrow-svg" src="Images/arrow.svg" />
+              </div>
+              <div class="content-field" data-key="features.9.benefit">
+                Easily setup, manage and attune your e-store with your country’s
+                regulatory requirements.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--                    end of benifits                     -->
+      <!--                    start of the steps section                     -->
+      <div class="steps-section">
+        <div class="steps-title">
+          <h1 data-key="steps_section.title">How it works?</h1>
+          <h4 data-key="steps_section.sub-title">Follow these 5 steps to use KondarSoft®:</h4>
+        </div>
+        <!--  step 1  -->
+        <div class="step step-one">
+          <div class="step-one-image">
+            <img src="Images/SignIn.png" />
+          </div>
+          <div class="step-one-text d-flex flex-column justify-content-center">
+            <h1 class="text-danger">
+              <b data-key="steps_section.step1_title">Step 1 - Sign Up</b>
+            </h1>
+            <h3>
+              <b data-key="steps_section.step1_subtitle">
+                To register for an online e-store, kindly visit:<br /><a
+                  href="www.kondarsoft.com/en/signup and fill in the forms."
+                  style="text-decoration: none"
+                  ><span class="text-danger"
+                    >www.kondarsoft.com/en/signup and fill in the forms.</span
+                  ></a
+                >
+              </b>
+            </h3>
+            <p data-key="steps_section.step1_description">
+              Once done, you will receive front-end and back-end links in your
+              email address to build and manage your website.
+            </p>
+          </div>
+        </div>
+        <!--  step 2  -->
+        <div class="step step-two">
+          <div class="step-two-image">
+            <img src="Images/customize.png" />
+          </div>
+          <div class="step-two-text d-flex flex-column justify-content-center">
+            <h1 class="text-danger">
+              <b data-key="steps_section.step2_title"
+                >Step 2 - Customize your e-store</b
+              >
+            </h1>
+            <p data-key="steps_section.step2_description">
+              <b
+                >You will get access to your own dashboard to fully customize
+                your e-store:</b
+              >
+              add your personal logo, manage front and back ends. Change or add
+              language and more.
+            </p>
+          </div>
+        </div>
+        <!--  step 3  -->
+        <div class="step step-three">
+          <div class="step-three-image">
+            <img src="Images/list-products.png" />
+          </div>
+          <div
+            class="step-three-text d-flex flex-column justify-content-center"
+          >
+            <h1 class="text-danger">
+              <b data-key="steps_section.step3_title"
+                >Step 3 - List your products</b
+              >
+            </h1>
+            <p data-key="steps_section.step3_description">
+              Add your product data after defining your inventory categories
+              <br />
+              (products pictures, description, price, dimensions…etc.).
+            </p>
+          </div>
+        </div>
+        <!--  step 4  -->
+        <div class="step step-four">
+          <div class="step-four-image">
+            <img src="Images/payment-delivery.jpg" />
+          </div>
+          <div class="step-four-text d-flex flex-column justify-content-center">
+            <h1 class="text-danger">
+              <b data-key="steps_section.step4_title"
+                >Step 4 - Set up your payment & delivery methods</b
+              >
+            </h1>
+            <p data-key="steps_section.step4_description">
+              Insert merchant account details with one payment processor,<br />
+              example: Stripe or Bambora. Add Shipping methods for delivery
+              purposes, example UPS or FedEx.
+            </p>
+          </div>
+        </div>
+        <!--  step 5  -->
+        <div class="step step-five">
+          <div class="step-five-image">
+            <img src="Images/launch.png" />
+          </div>
+          <div class="step-five-text d-flex flex-column justify-content-center">
+            <h1 class="text-danger">
+              <b data-key="steps_section.step5_title"
+                >Step 5 - Launch your e-store to go LIVE!</b
+              >
+            </h1>
+            <p data-key="steps_section.step5_description">
+              Congratulation! You can now try Kondarsoft® free for selling goods
+              worth 5000 USD accumulated or for 15 calendar days. Once the trial
+              period is over, KondarSoft® algorithm will determine the most
+              competitive transaction fees on a case-to-case basis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--                    end of the steps section                     -->
+      <!--                    start of contact section                     -->
+
+      <div class="contact-section text-center">
+        <h2 class="text-danger" data-key="section_title">
+          Contact Your Local Commercial Consultant
+        </h2>
+        <div class="consultants d-flex justify-content-center gap-4 mt-4">
+          <div class="card shadow-sm text-center p-3">
+            <img
+              src="Images/Consultants/Me.jpg"
+              alt="Riadh S"
+              class="rounded-circle"
+              width="120"
+            />
+            <h5 class="mt-3" data-key="consultant_1_name">Mr. Riadh S</h5>
+            <p class="text-muted" data-key="consultant_1_location">
+              British Columbia, Canada
+            </p>
+            <a
+              href="#"
+              class="btn btn-link text-primary"
+              data-key="consultant_1_view_more"
+              >View More</a
+            >
+          </div>
+          <div class="card shadow-sm text-center p-3">
+            <img
+              src="Images/Consultants/Annamarie2.png"
+              alt="Annamarie B"
+              class="rounded-circle"
+              width="120"
+            />
+            <h5 class="mt-3" data-key="consultant_2_name">Ms. Annamarie B</h5>
+            <p class="text-muted" data-key="consultant_2_location">
+              California, United States
+            </p>
+            <a
+              href="#"
+              class="btn btn-link text-primary"
+              data-key="consultant_2_view_more"
+              >View More</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="footer mt-5 py-4 bg-light">
+        <div class="container d-flex justify-content-between">
+          <div class="footer-section">
+            <h6 class="text-danger" data-key="footer_legal_notices_title">
+              Legal Notices
+            </h6>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://www.kondarsoft.com/enjp/page/privacy_policy"
+                  class="text-muted"
+                  data-key="footer_legal_notices_item_1"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.kondarsoft.com/enjp/page/Terms_of_Services"
+                  class="text-muted"
+                  data-key="footer_legal_notices_item_2"
+                  >Terms of Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.kondarsoft.com/enjp/contact"
+                  class="text-danger"
+                  data-key="footer_legal_notices_item_3"
+                  ><b>Contact Us</b></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h6 class="text-danger" data-key="footer_work_with_kgs_title">
+              Work With KGS
+            </h6>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://www.kondarsoft.com/enjp/career/index/PermanentJob"
+                  class="text-muted"
+                  data-key="footer_work_with_kgs_item_1"
+                  >Full-Time Job (2)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.kondarsoft.com/enjp/career/index/InternshipProgram"
+                  class="text-muted"
+                  data-key="footer_work_with_kgs_item_2"
+                  >Internship Program (2)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.kondarsoft.com/enjp/career/index/ProjectsContractors"
+                  class="text-muted"
+                  data-key="footer_work_with_kgs_item_3"
+                  >Project Contractors (1)</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center text-white" style="background-color: #f1f1f1">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.facebook.com/profile.php?id=100006526966558"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Youtube -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.youtube.com/watch?v=hfwSSAufABw"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-youtube"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/in/riadh-s-kondarsoft/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center text-dark p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2024 Copyright:
+          <a class="text-dark" href="#">
+            Kondar Global Solutions Ltd. All Rights Reserved.</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+      <!-- End of .container -->
     </div>
-</body>
+  </body>
+</html>

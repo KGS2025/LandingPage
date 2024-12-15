@@ -1,0 +1,128 @@
+{
+  "title": "Bienvenue chez kondarsoft",
+  "navigation": {
+    "home": "Accueil",
+    "marketplace": "Marché",
+    "contact": "Contact",
+    "outsourcing": "Externalisation",
+    "languages": {
+      "english": "Anglais",
+      "french": "Français",
+      "arabic": "Arabe",
+      "chinese": "Chinois",
+      "english_arabic": "Anglais - Arabe",
+      "french_arabic": "Français - Arabe",
+      "japanese": "Japonais",
+      "english_japanese": "Anglais - Japonais"
+    }
+  },
+  "hero_section": {
+    "title": "Vendez en ligne avec notre boutique et marché en marque blanche",
+    "button": "Commencez aujourd'hui"
+  },
+  "industries": {
+    "title": "Industries que nous servons",
+    "vehicles": {
+      "title": "Véhicules",
+      "description": "Véhicules pour le transport de personnes et de marchandises : Route, Rail, Mer et Air."
+    },
+    "machines": {
+      "title": "Machines",
+      "description": "Machines, équipements et produits pour la construction, l'agriculture et les applications industrielles."
+    },
+    "devices": {
+      "title": "Appareils",
+      "description": "Appareils (électroménager et équipements de bureau)."
+    },
+    "tools_instruments": {
+      "title": "Outils et Instruments",
+      "description": "Cela concerne tous les outils et instruments sans exception."
+    },
+    "food": {
+      "title": "Alimentation",
+      "description": "Aliments pour la consommation humaine et animale."
+    },
+    "wear": {
+      "title": "Vêtements",
+      "description": "Vêtements et produits esthétiques."
+    }
+  },
+  "video_section": {
+    "title": "Pourquoi Kondar Soft?",
+    "objective": "Notre objectif?",
+    "objective_description": "Notre objectif est de révolutionner le paysage mondial du commerce électronique en introduisant notre boutique en ligne en marque blanche inégalée. Elle est conçue stratégiquement pour permettre aux fournisseurs de produits, y compris les fabricants, grossistes et détaillants, de réussir dans les ventes en ligne B2B et B2C.<a href=\"https://www.kondarsoft.com/en/page/EISPI\"style=\"text-decoration: none\"><span class=\"text-danger\">https://www.kondarsoft.com/en/page/EISPI</span></a>"
+  },
+  "features": {
+    "title": "À qui est-ce destiné ?",
+    "traget1": "Pour les fabricants, grossistes et détaillants établis qui vendent hors ligne ou possèdent une boutique en ligne peu productive (coûteuse ou obsolète).",
+    "target2": "Pour les startups cherchant à vendre leurs produits en ligne.",
+    "feature": "caractéristique",
+    "benefit": "avantage",
+    "1": {
+      "feature": "Aucune carte de crédit ou donnée financière requise pour s'inscrire.",
+      "benefit": "Essayer Kondarsoft® est totalement gratuit. Vous pouvez annuler à tout moment."
+    },
+    "2": {
+      "feature": "Aucun frais inattendu ou caché, sauf les frais de transaction personnalisés.",
+      "benefit": "Profitez du meilleur service pour le juste coût."
+    },
+    "3": {
+      "feature": "Processus d'inscription rapide. Conçu pour votre tranquillité d'esprit.",
+      "benefit": "Vous êtes à cinq minutes de rejoindre la plateforme."
+    },
+    "4": {
+      "feature": "Pour accéder à la boutique en ligne, vous devez vérifier simultanément votre adresse e-mail et votre numéro de téléphone portable. Le processus de vérification prendra une minute.",
+      "benefit": "Environnement hautement sécurisé pour votre entreprise en ligne. Obtenez des clients organisés et vérifiés."
+    },
+    "5": {
+      "feature": "Interface avant et arrière multilingue avec support complet pour les langues de gauche à droite et de droite à gauche.",
+      "benefit": "Atteignez votre marché cible où qu'il se trouve dans le monde."
+    },
+    "6": {
+      "feature": "Multiples processeurs de cartes de crédit et transporteurs de livraison.",
+      "benefit": "Connectez-vous avec vos clients et commencez à traiter les commandes sans tracas ni limitations."
+    },
+    "7": {
+      "feature": "Entrée de données, marketing, comptabilité, expédition et ventes combinés et optimisés.",
+      "benefit": "Économisez des heures de travail fastidieux pour vous et votre équipe."
+    },
+    "8": {
+      "feature": "Assistance technique gratuite 24/7 (chat, e-mail, audio ou vidéo).",
+      "benefit": "Bénéficiez d'un service d'assistance en temps réel et d'une équipe prête à intervenir."
+    },
+    "9": {
+      "feature": "Séances de formation gratuites à distance ou en personne. Configuration gratuite de la boutique en ligne possible pour les entreprises éligibles.",
+      "benefit": "Configurez, gérez et adaptez facilement votre boutique en ligne aux exigences réglementaires de votre pays."
+    }
+  },
+  "steps_section": {
+    "title": "Comment ça fonctionne ?",
+    "sub-title": "Suivez ces 5 étapes pour utiliser KondarSoft® :",
+    "step1_title": "Étape 1 - Inscrivez-vous",
+    "step1_subtitle": "Pour vous inscrire à une boutique en ligne, veuillez visiter:<br /><a href=\"www.kondarsoft.com/en/signup and fill in the forms.\" style=\"text-decoration: none\"><span class=\"text-danger\"> www.kondarsoft.com/fr/inscription et remplir les formulaires. Une fois terminé, vous recevrez des liens front-end et back-end dans votre adresse e-mail pour créer et gérer votre site Web.</span><a>",
+    "step1_description": "Une fois terminé, vous recevrez des liens pour le front-end et le back-end à votre adresse e-mail afin de créer et gérer votre site web.",
+    "step2_title": "Étape 2 - Personnalisez votre boutique en ligne",
+    "step2_description": "Vous aurez accès à votre propre tableau de bord pour personnaliser entièrement votre boutique en ligne : ajoutez votre logo personnel, gérez les parties front-end et back-end. Modifiez ou ajoutez des langues et plus encore.",
+    "step3_title": "Étape 3 - Listez vos produits",
+    "step3_description": "Ajoutez les données de vos produits après avoir défini vos catégories d'inventaire (images des produits, description, prix, dimensions, etc.).",
+    "step4_title": "Étape 4 - Configurez vos méthodes de paiement et de livraison",
+    "step4_description": "Insérez les détails du compte marchand avec un processeur de paiement, exemple : Stripe ou Bambora. Ajoutez des méthodes d'expédition à des fins de livraison, exemple UPS ou FedEx.",
+    "step5_title": "Étape 5 - Lancez votre boutique en ligne pour aller en ligne !",
+    "step5_description": "Félicitations ! Vous pouvez désormais essayer Kondarsoft® gratuitement pour vendre des biens d'une valeur de 5000 USD accumulée ou pendant 15 jours calendaires. Une fois la période d'essai terminée, l'algorithme de KondarSoft® déterminera les frais de transaction les plus compétitifs au cas par cas."
+  },
+  "section_title": "Contactez votre consultant commercial local",
+  "consultant_1_name": "M. Riadh S",
+  "consultant_1_location": "Colombie-Britannique, Canada",
+  "consultant_1_view_more": "Voir Plus",
+  "consultant_2_name": "Mme. Annamarie B",
+  "consultant_2_location": "Californie, États-Unis",
+  "consultant_2_view_more": "Voir Plus",
+  "footer_legal_notices_title": "Mentions Légales",
+  "footer_legal_notices_item_1": "Politique de Confidentialité",
+  "footer_legal_notices_item_2": "Conditions d'Utilisation",
+  "footer_legal_notices_item_3": "Contactez-Nous",
+  "footer_work_with_kgs_title": "Travailler avec KGS",
+  "footer_work_with_kgs_item_1": "Emploi à Temps Plein (2)",
+  "footer_work_with_kgs_item_2": "Programme de Stage (2)",
+  "footer_work_with_kgs_item_3": "Entrepreneurs de Projet (1)"
+}

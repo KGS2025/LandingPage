@@ -1,0 +1,128 @@
+{
+  "title": "Welcome to kondarsoft <br> مرحبًا بكم في كوندارسوفت",
+  "navigation": {
+    "home": "Home <br> الرئيسية",
+    "marketplace": "Marketplace <br> السوق",
+    "contact": "Contact <br> اتصل بنا",
+    "outsourcing": "Outsourcing <br> الاستعانة بمصادر خارجية",
+    "languages": {
+      "english": "English <br> الإنجليزية",
+      "french": "Français <br> الفرنسية",
+      "arabic": "العربية <br> العربية",
+      "chinese": "中文 <br> الصينية",
+      "english_arabic": "English - العربية <br> الإنجليزية - العربية",
+      "french_arabic": "Français - العربية <br> الفرنسية - العربية",
+      "japanese": "日本語 <br> اليابانية",
+      "english_japanese": "English - 日本語 <br> الإنجليزية - اليابانية"
+    }
+  },
+  "hero_section": {
+    "title": "Sell online with our white <br> label store and marketplace <br> .نشتري مخزونك من قطع الغيار<br> بنظام التسليم المباشر للزبون",
+    "button": "Start today <br> ابدأ اليوم"
+  },
+  "industries": {
+    "title": "Industries We Serve <br> الصناعات التي نخدمها",
+    "vehicles": {
+      "title": "Vehicles <br> المركبات",
+      "description": "Vehicles for people and goods transportation: Road, Rail, Sea and Air. <br> مركبات لنقل الأشخاص والبضائع: الطرق، السكك الحديدية، البحر والجو."
+    },
+    "machines": {
+      "title": "Machines <br> الآلات",
+      "description": "Machines, equipment and products for construction, agriculture and industrial application. <br> الآلات والمعدات والمنتجات المخصصة للبناء والزراعة والتطبيقات الصناعية."
+    },
+    "devices": {
+      "title": "Devices <br> الأجهزة",
+      "description": "Devices (home appliances and office equipment). <br> الأجهزة (الأجهزة المنزلية ومعدات المكاتب)."
+    },
+    "tools_instruments": {
+      "title": "Tools & Instruments <br> الأدوات والمعدات",
+      "description": "It is about all Tools & Instruments without exception. <br> يشمل جميع الأدوات والمعدات دون استثناء."
+    },
+    "food": {
+      "title": "Food <br> الغذاء",
+      "description": "Food for human and animal consumption. <br> الغذاء للاستهلاك البشري والحيواني."
+    },
+    "wear": {
+      "title": "Wear <br> الملابس",
+      "description": "Wear and aesthetic products. <br> الملابس والمنتجات الجمالية."
+    }
+  },
+  "video_section": {
+    "title": "Why Kondar Soft? <br> لماذا كوندارسوفت؟",
+    "objective": "Our Objective? <br> هدفنا؟",
+    "objective_description": "Our objective is to revolutionize the global e-commerce landscape by introducing our unparalleled white label online store. It's strategically designed to empower product suppliers, including manufacturers, wholesalers, and retailers, enabling them to excel in both B2B and B2C online sales.<a href=\"https://www.kondarsoft.com/en/page/EISPI\"style=\"text-decoration: none\"><span class=\"text-danger\">https://www.kondarsoft.com/en/page/EISPI</span></a> <br> هدفنا هو إحداث ثورة في مشهد التجارة الإلكترونية العالمية من خلال تقديم متجرنا عبر الإنترنت ذو العلامة البيضاء الفريد. إنه مصمم استراتيجياً لتمكين موردي المنتجات، بما في ذلك المصنعين، وتجار الجملة، وتجار التجزئة، من التفوق في مبيعات B2B و B2C عبر الإنترنت.<a href=\"https://www.kondarsoft.com/en/page/EISPI\"style=\"text-decoration: none\"><span class=\"text-danger\">https://www.kondarsoft.com/en/page/EISPI</span></a>"
+  },
+  "features": {
+    "title": "Who is it for? <br> لمن هو مخصص؟",
+    "traget1": "For established product's manufacturers, wholesalers and retailers which are selling offline or having an unproductive online store (expensive or outdated). <br> لصانعي المنتجات، وتجار الجملة وتجار التجزئة الذين يبيعون خارج الإنترنت أو لديهم متجر إلكتروني غير فعال (مكلف أو قديم).",
+    "target2": "For startups that are looking to sell its products online. <br> لرواد الأعمال الذين يتطلعون لبيع منتجاتهم عبر الإنترنت.",
+    "feature": "feature <br> ميزة",
+    "benefit": "benefit <br> فائدة",
+    "1": {
+      "feature": "No credit card or any financial data required to sign up. <br> لا حاجة لبطاقة ائتمان أو أي بيانات مالية للتسجيل.",
+      "benefit": "Trying Kondarsoft® is totally free. You can cancel at any time. <br> تجربة Kondarsoft® مجانية تمامًا. يمكنك الإلغاء في أي وقت."
+    },
+    "2": {
+      "feature": "No unexpected or hidden fees, whatsoever, except the tailored transaction fees. <br> لا توجد رسوم غير متوقعة أو مخفية على الإطلاق، باستثناء رسوم المعاملات المخصصة.",
+      "benefit": "Enjoy the best service for the right cost. <br> استمتع بأفضل خدمة بتكلفة مناسبة."
+    },
+    "3": {
+      "feature": "Swift signup process. Made simple for your peace of mind. <br> عملية تسجيل سريعة. مصممة لتوفير راحة البال.",
+      "benefit": "You are five minutes away from joining the platform. <br> أنت على بعد خمس دقائق من الانضمام إلى المنصة."
+    },
+    "4": {
+      "feature": "To access the e-store, you will need to simultaneously verify your email address and cellphone number. The verification process will take one minute. <br> للوصول إلى المتجر الإلكتروني، ستحتاج إلى التحقق من عنوان بريدك الإلكتروني ورقم هاتفك المحمول في نفس الوقت. ستستغرق عملية التحقق دقيقة واحدة.",
+      "benefit": "Highly secure environment for your online business. Acquire neat and verified clients. <br> بيئة آمنة للغاية لأعمالك عبر الإنترنت. احصل على عملاء منظمين وموثوقين."
+    },
+    "5": {
+      "feature": "Multilingual back and front end with full support of left-to-right & right-to-left languages. <br> واجهة أمامية وخلفية متعددة اللغات مع دعم كامل للغات من اليسار إلى اليمين ومن اليمين إلى اليسار.",
+      "benefit": "Reach your target market wherever it is in the world. <br> الوصول إلى السوق المستهدف في أي مكان في العالم."
+    },
+    "6": {
+      "feature": "Multi credit card processors and shipping carriers. <br> معالجات متعددة لبطاقات الائتمان وشركات شحن متعددة.",
+      "benefit": "Connect with your clients and start processing orders with no hassle or limitations. <br> اتصل بعملائك وابدأ في معالجة الطلبات بسهولة ودون قيود."
+    },
+    "7": {
+      "feature": "Combined and optimized data entry, marketing, accounting, shipping and sales functionalities. <br> وظائف مدمجة ومُحسّنة لإدخال البيانات والتسويق والمحاسبة والشحن والمبيعات.",
+      "benefit": "Save hours of tedious work for you & your team. <br> وفر ساعات من العمل الممل لك ولفريقك."
+    },
+    "8": {
+      "feature": "Free 24/7 technical support (chat, email, audio or video). <br> دعم فني مجاني على مدار الساعة (دردشة، بريد إلكتروني، صوت أو فيديو).",
+      "benefit": "Profit from a real-time support service and a team ready to intervene. <br> استفد من خدمة الدعم الفوري وفريق جاهز للتدخل."
+    },
+    "9": {
+      "feature": "Free remote or in person training sessions. Possible free e-store setup for the eligible businesses. <br> جلسات تدريب مجانية عن بُعد أو حضورية. إعداد متجر إلكتروني مجاني ممكن للأعمال المؤهلة.",
+      "benefit": "Easily setup, manage and attune your e-store with your country’s regulatory requirements. <br> قم بإعداد وإدارة وتكييف متجرك الإلكتروني بسهولة وفقًا لمتطلبات اللوائح في بلدك."
+    }
+  },
+  "steps_section": {
+    "title": "How it works? <br> كيف يعمل؟",
+    "sub-title": "Follow these 5 steps to use KondarSoft®: <br> اتبع هذه الخطوات الخمس لاستخدام KondarSoft®:",
+    "step1_title": "Step 1 - Sign Up <br> الخطوة 1 - التسجيل",
+    "step1_subtitle": "To register for an online e-store, kindly visit: <br /><a href=\"www.kondarsoft.com/en/signup and fill in the forms.\" style=\"text-decoration: none\"><span class=\"text-danger\">www.kondarsoft.com/en/signup and fill in the forms.</span></a> <br> للتسجيل في متجر إلكتروني، يرجى زيارة:<br /><a href=\"www.kondarsoft.com/en/signup and fill in the forms.\" style=\"text-decoration: none\"><span class=\"text-danger\"> www.kondarsoft.com/ar/signup وملء النماذج. بمجرد الانتهاء، ستتلقى روابط الواجهة الأمامية والخلفية في بريدك الإلكتروني لإنشاء وإدارة موقعك.</span></a>",
+    "step1_description": "Once done, you will receive front-end and back-end links in your email address to build and manage your website. <br> <span class='arab-lang'>بمجرد الانتهاء، ستتلقى روابط للواجهة الأمامية والخلفية على بريدك الإلكتروني لبناء وإدارة موقعك الإلكتروني.</span>",
+    "step2_title": "Step 2 - Customize your e-store <br> الخطوة 2 - تخصيص متجرك الإلكتروني",
+    "step2_description": "You will get access to your own dashboard to fully customize your e-store: add your personal logo, manage front and back ends. Change or add language and more.\u200E <br> <span class='arab-lang'>ستحصل على إمكانية الوصول إلى لوحة التحكم الخاصة بك لتخصيص متجرك الإلكتروني بالكامل: إضافة شعارك الشخصي، إدارة الواجهة الأمامية والخلفية. تغيير أو إضافة اللغة والمزيد.</span>",
+    "step3_title": "Step 3 - List your products <br> الخطوة 3 - أضف منتجاتك",
+    "step3_description": "Add your product data after defining your inventory categories (products pictures, description, price, dimensions…etc.). <br> <span class='arab-lang'>أضف بيانات منتجاتك بعد تحديد فئات المخزون (صور المنتجات، الوصف، السعر، الأبعاد...إلخ).</span>",
+    "step4_title": "Step 4 - Set up your payment & delivery methods <br> الخطوة 4 - إعداد طرق الدفع والتوصيل",
+    "step4_description": "Insert merchant account details with one payment processor, example: Stripe or Bambora. Add Shipping methods for delivery purposes, example UPS or FedEx. <br> <span class='arab-lang'>قم بإدخال تفاصيل حساب التاجر مع أحد معالجي الدفع، مثال: Stripe أو Bambora. أضف طرق الشحن لأغراض التوصيل، مثال UPS أو FedEx.</span>",
+    "step5_title": "Step 5 - Launch your e-store to go LIVE! <br> الخطوة 5 - قم بإطلاق متجرك الإلكتروني ليصبح نشطاً!",
+    "step5_description": "Congratulation! You can now try Kondarsoft® free for selling goods worth 5000 USD accumulated or for 15 calendar days. Once the trial period is over, KondarSoft® algorithm will determine the most competitive transaction fees on a case-to-case basis. <br> <span class='arab-lang'>تهانينا! يمكنك الآن تجربة Kondarsoft® مجاناً لبيع السلع بقيمة 5000 دولار أمريكي مجتمعة أو لمدة 15 يوماً تقويمياً. بمجرد انتهاء فترة التجربة، ستحدد خوارزمية KondarSoft® رسوم المعاملات الأكثر تنافسية بناءً على كل حالة على حدة.</span>"
+  },
+  "section_title": "Contact Your Local Commercial Consultant <br> اتصل بمستشارك التجاري المحلي",
+  "consultant_1_name": "Mr. Riadh S <br> السيد رياض س",
+  "consultant_1_location": "British Columbia, Canada <br> كولومبيا البريطانية، كندا",
+  "consultant_1_view_more": "View More <br> عرض المزيد",
+  "consultant_2_name": "Ms. Annamarie B <br> السيدة أناماري ب",
+  "consultant_2_location": "California, United States <br> كاليفورنيا، الولايات المتحدة",
+  "consultant_2_view_more": "View More <br> عرض المزيد",
+  "footer_legal_notices_title": "Legal Notices <br> إشعارات قانونية",
+  "footer_legal_notices_item_1": "Privacy Policy <br> سياسة الخصوصية",
+  "footer_legal_notices_item_2": "Terms of Services <br> شروط الخدمة",
+  "footer_legal_notices_item_3": "Contact Us <br> اتصل بنا",
+  "footer_work_with_kgs_title": "Work With KGS <br> العمل مع KGS",
+  "footer_work_with_kgs_item_1": "Full-Time Job (2) <br> وظيفة بدوام كامل (2)",
+  "footer_work_with_kgs_item_2": "Internship Program (2) <br> برنامج التدريب (2)",
+  "footer_work_with_kgs_item_3": "Project Contractors (1) <br> مقاولون المشروع (1)"
+}
