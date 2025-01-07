@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-   
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,6 +20,11 @@
     <link rel="stylesheet" href="https://use.typekit.net/ong6lwg.css" />
     <link rel="stylesheet" href="style.css" />
     <title data-key="title">Welcome to kondarsoft</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="main-container">
@@ -127,20 +131,71 @@
       <!--                    end of the navigation bar                     -->
       <!--                    start of the hero section                    -->
       <div class="title-container">
-        <img src="Images/TitleBgImage.jpg" class="bg-image" />
-        <div class="title m-auto">
-          <h1 class="text-light font-weight-bold" data-key="hero_section.title">
-            Sell online with our white <br />
-            label store and marketplace
-          </h1>
-          <div class="btn-container">
-            <button
-              class="btn btn-lg btn-danger title-btn"
-              data-key="hero_section.button"
-            >
-              Start today
-            </button>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Images/TitleBgImage.jpg" class="bg-image" />
+              <div class="title m-auto">
+                <h1
+                  class="text-light font-weight-bold"
+                  data-key="hero_section.title"
+                >
+                  Sell online with our white <br />
+                  label store and marketplace
+                </h1>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-lg btn-danger title-btn"
+                    data-key="hero_section.button"
+                  >
+                    Start today
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Images/orignal_KGS_Image.png" class="bg-image" />
+              <div class="title m-auto">
+                <h1
+                  class="text-light font-weight-bold"
+                  data-key="hero_section.title"
+                >
+                  Sell online with our white <br />
+                  label store and marketplace
+                </h1>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-lg btn-danger title-btn"
+                    data-key="hero_section.button"
+                  >
+                    Start today
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
       <!--                    end of the hero section                     -->
@@ -565,7 +620,9 @@
       <div class="steps-section">
         <div class="steps-title">
           <h1 data-key="steps_section.title">How it works?</h1>
-          <h4 data-key="steps_section.sub-title">Follow these 5 steps to use KondarSoft®:</h4>
+          <h4 data-key="steps_section.sub-title">
+            Follow these 5 steps to use KondarSoft®:
+          </h4>
         </div>
         <!--  step 1  -->
         <div class="step step-one">

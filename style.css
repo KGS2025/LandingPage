@@ -171,6 +171,10 @@
   object-position: center;
 }
 
+.carousel *{
+  transition: all 150ms ease-in-out;
+}
+
 .title {
   font-family: "futura-pt", sans-serif;
   box-sizing: content-box;
@@ -657,7 +661,7 @@
   }
 
   .title-container {
-    height: 45vh;
+    height: auto;
   }
 
   .title {
